@@ -1,0 +1,917 @@
+{
+    "type": "FeatureCollection",
+    "context": {
+        "limit": 10,
+        "returned": 4
+    },
+    "features": [
+        {
+            "id": "D2_SMI_2020-07-07T052714_2020-07-07T132726_L1C",
+            "bbox": [
+                120.57242319574843,
+                12.427229100968175,
+                121.60516589343668,
+                13.842553437491325
+            ],
+            "type": "Feature",
+            "links": [
+                {
+                    "rel": "collection",
+                    "type": "application/json",
+                    "href": "https://api.diwata-stac.philsa.gov.ph/collections/diwata-2"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://api.diwata-stac.philsa.gov.ph/collections/diwata-2"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://api.diwata-stac.philsa.gov.ph/"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/geo+json",
+                    "href": "https://api.diwata-stac.philsa.gov.ph/collections/diwata-2/items/D2_SMI_2020-07-07T052714_2020-07-07T132726_L1C"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://storage.googleapis.com/philsa-diwata-open-data/D2/thumbnail/D2_SMI_2020-07-07T052714_2020-07-07T132726_THUMB.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "title": "Thumbnail"
+                },
+                "top-of-atmosphere-reflectance": {
+                    "href": "https://storage.googleapis.com/philsa-diwata-open-data/D2/smi/D2_SMI_2020-07-07T052714_2020-07-07T132726_L1C_COG.tif",
+                    "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+                    "roles": [
+                        "cog",
+                        "data",
+                        "visual"
+                    ],
+                    "title": "Top of Atmosphere Reflectance (L1C)",
+                    "eo:bands": [
+                        {
+                            "name": "V490",
+                            "common_name": "blue",
+                            "description": "Operational Band V490"
+                        },
+                        {
+                            "name": "V550",
+                            "common_name": "green",
+                            "description": "Operational Band V550"
+                        },
+                        {
+                            "name": "V620",
+                            "common_name": "yellow",
+                            "description": "Operational Band V620"
+                        },
+                        {
+                            "name": "V670",
+                            "common_name": "red",
+                            "description": "Operational Band V670"
+                        },
+                        {
+                            "name": "V708",
+                            "common_name": "red-edge",
+                            "description": "Operational Band V708"
+                        },
+                        {
+                            "name": "N740",
+                            "common_name": "red-edge",
+                            "description": "Operational Band V740"
+                        },
+                        {
+                            "name": "N753",
+                            "common_name": "red-edge",
+                            "description": "Operational Band V753"
+                        },
+                        {
+                            "name": "N778",
+                            "common_name": "nir",
+                            "description": "Operational Band V778"
+                        },
+                        {
+                            "name": "N865",
+                            "common_name": "nir",
+                            "description": "Alternate Band V865"
+                        }
+                    ],
+                    "raster:bands": [
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 964.878173828125,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 991.8287353515625,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 993.9785766601562,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 991.4044189453125,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 993.8823852539062,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 1023.0,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 707.45068359375,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 630.246337890625,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 329.3780212402344,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        }
+                    ]
+                }
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.57242319574843,
+                            12.427229100968175
+                        ],
+                        [
+                            120.57242319574843,
+                            13.842553437491325
+                        ],
+                        [
+                            121.60516589343668,
+                            13.842553437491325
+                        ],
+                        [
+                            121.60516589343668,
+                            12.427229100968175
+                        ],
+                        [
+                            120.57242319574843,
+                            12.427229100968175
+                        ]
+                    ]
+                ]
+            },
+            "collection": "diwata-2",
+            "properties": {
+                "datetime": "2020-07-07T05:27:14Z",
+                "platform": "Diwata-2",
+                "proj:epsg": 3857,
+                "instruments": [
+                    "Spaceborne Multispectral Imager (SMI)"
+                ]
+            },
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+                "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+                "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+            ]
+        },
+        {
+            "id": "D2_SMI_2020-04-11T051903_2020-04-11T235959_L1C",
+            "bbox": [
+                120.01614140486726,
+                13.206570153073597,
+                121.0939585227222,
+                14.366693305382928
+            ],
+            "type": "Feature",
+            "links": [
+                {
+                    "rel": "collection",
+                    "type": "application/json",
+                    "href": "https://api.diwata-stac.philsa.gov.ph/collections/diwata-2"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://api.diwata-stac.philsa.gov.ph/collections/diwata-2"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://api.diwata-stac.philsa.gov.ph/"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/geo+json",
+                    "href": "https://api.diwata-stac.philsa.gov.ph/collections/diwata-2/items/D2_SMI_2020-04-11T051903_2020-04-11T235959_L1C"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://storage.googleapis.com/philsa-diwata-open-data/D2/thumbnail/D2_SMI_2020-04-11T051903_2020-04-11T235959_THUMB.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "title": "Thumbnail"
+                },
+                "top-of-atmosphere-reflectance": {
+                    "href": "https://storage.googleapis.com/philsa-diwata-open-data/D2/smi/D2_SMI_2020-04-11T051903_2020-04-11T235959_L1C_COG.tif",
+                    "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+                    "roles": [
+                        "cog",
+                        "data",
+                        "visual"
+                    ],
+                    "title": "Top of Atmosphere Reflectance (L1C)",
+                    "eo:bands": [
+                        {
+                            "name": "V490",
+                            "common_name": "blue",
+                            "description": "Operational Band V490"
+                        },
+                        {
+                            "name": "V550",
+                            "common_name": "green",
+                            "description": "Operational Band V550"
+                        },
+                        {
+                            "name": "V620",
+                            "common_name": "yellow",
+                            "description": "Operational Band V620"
+                        },
+                        {
+                            "name": "V670",
+                            "common_name": "red",
+                            "description": "Operational Band V670"
+                        },
+                        {
+                            "name": "V708",
+                            "common_name": "red-edge",
+                            "description": "Operational Band V708"
+                        },
+                        {
+                            "name": "N740",
+                            "common_name": "red-edge",
+                            "description": "Operational Band V740"
+                        },
+                        {
+                            "name": "N753",
+                            "common_name": "red-edge",
+                            "description": "Operational Band V753"
+                        },
+                        {
+                            "name": "N778",
+                            "common_name": "nir",
+                            "description": "Operational Band V778"
+                        },
+                        {
+                            "name": "N865",
+                            "common_name": "nir",
+                            "description": "Alternate Band V865"
+                        }
+                    ],
+                    "raster:bands": [
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 989.829345703125,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 991.0,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 993.98046875,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 992.7786254882812,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 992.9321899414062,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 883.269775390625,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 1023.0,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 751.39501953125,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 389.1556396484375,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        }
+                    ]
+                }
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.01614140486726,
+                            13.206570153073597
+                        ],
+                        [
+                            120.01614140486726,
+                            14.366693305382928
+                        ],
+                        [
+                            121.0939585227222,
+                            14.366693305382928
+                        ],
+                        [
+                            121.0939585227222,
+                            13.206570153073597
+                        ],
+                        [
+                            120.01614140486726,
+                            13.206570153073597
+                        ]
+                    ]
+                ]
+            },
+            "collection": "diwata-2",
+            "properties": {
+                "datetime": "2020-04-11T05:19:03Z",
+                "platform": "Diwata-2",
+                "proj:epsg": 3857,
+                "instruments": [
+                    "Spaceborne Multispectral Imager (SMI)"
+                ]
+            },
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+                "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+                "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+            ]
+        },
+        {
+            "id": "D2_SMI_2020-02-18T052551_2020-02-18T132613_L1C",
+            "bbox": [
+                119.97355875088446,
+                12.71932899723469,
+                120.88583366667316,
+                13.776814136557194
+            ],
+            "type": "Feature",
+            "links": [
+                {
+                    "rel": "collection",
+                    "type": "application/json",
+                    "href": "https://api.diwata-stac.philsa.gov.ph/collections/diwata-2"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://api.diwata-stac.philsa.gov.ph/collections/diwata-2"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://api.diwata-stac.philsa.gov.ph/"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/geo+json",
+                    "href": "https://api.diwata-stac.philsa.gov.ph/collections/diwata-2/items/D2_SMI_2020-02-18T052551_2020-02-18T132613_L1C"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://storage.googleapis.com/philsa-diwata-open-data/D2/thumbnail/D2_SMI_2020-02-18T052551_2020-02-18T132613_THUMB.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "title": "Thumbnail"
+                },
+                "top-of-atmosphere-reflectance": {
+                    "href": "https://storage.googleapis.com/philsa-diwata-open-data/D2/smi/D2_SMI_2020-02-18T052551_2020-02-18T132613_L1C_COG.tif",
+                    "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+                    "roles": [
+                        "cog",
+                        "data",
+                        "visual"
+                    ],
+                    "title": "Top of Atmosphere Reflectance (L1C)",
+                    "eo:bands": [
+                        {
+                            "name": "V490",
+                            "common_name": "blue",
+                            "description": "Operational Band V490"
+                        },
+                        {
+                            "name": "V550",
+                            "common_name": "green",
+                            "description": "Operational Band V550"
+                        },
+                        {
+                            "name": "V620",
+                            "common_name": "yellow",
+                            "description": "Operational Band V620"
+                        },
+                        {
+                            "name": "V670",
+                            "common_name": "red",
+                            "description": "Operational Band V670"
+                        },
+                        {
+                            "name": "V708",
+                            "common_name": "red-edge",
+                            "description": "Operational Band V708"
+                        },
+                        {
+                            "name": "N740",
+                            "common_name": "red-edge",
+                            "description": "Operational Band V740"
+                        },
+                        {
+                            "name": "N753",
+                            "common_name": "red-edge",
+                            "description": "Operational Band V753"
+                        },
+                        {
+                            "name": "N778",
+                            "common_name": "nir",
+                            "description": "Operational Band V778"
+                        },
+                        {
+                            "name": "N865",
+                            "common_name": "nir",
+                            "description": "Alternate Band V865"
+                        }
+                    ],
+                    "raster:bands": [
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 994.0,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 993.0,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 992.9808959960938,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 992.0,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 992.0,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 855.138671875,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 771.4028930664062,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 721.44775390625,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 365.4193420410156,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        }
+                    ]
+                }
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            119.97355875088446,
+                            12.71932899723469
+                        ],
+                        [
+                            119.97355875088446,
+                            13.776814136557194
+                        ],
+                        [
+                            120.88583366667316,
+                            13.776814136557194
+                        ],
+                        [
+                            120.88583366667316,
+                            12.71932899723469
+                        ],
+                        [
+                            119.97355875088446,
+                            12.71932899723469
+                        ]
+                    ]
+                ]
+            },
+            "collection": "diwata-2",
+            "properties": {
+                "datetime": "2020-02-18T05:25:51Z",
+                "platform": "Diwata-2",
+                "proj:epsg": 3857,
+                "instruments": [
+                    "Spaceborne Multispectral Imager (SMI)"
+                ]
+            },
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+                "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+                "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+            ]
+        },
+        {
+            "id": "D2_SMI_2020-01-27T052058_2020-01-27T235959_L1C",
+            "bbox": [
+                120.32876015753544,
+                12.979083062525461,
+                121.36244194556407,
+                14.494768955027105
+            ],
+            "type": "Feature",
+            "links": [
+                {
+                    "rel": "collection",
+                    "type": "application/json",
+                    "href": "https://api.diwata-stac.philsa.gov.ph/collections/diwata-2"
+                },
+                {
+                    "rel": "parent",
+                    "type": "application/json",
+                    "href": "https://api.diwata-stac.philsa.gov.ph/collections/diwata-2"
+                },
+                {
+                    "rel": "root",
+                    "type": "application/json",
+                    "href": "https://api.diwata-stac.philsa.gov.ph/"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/geo+json",
+                    "href": "https://api.diwata-stac.philsa.gov.ph/collections/diwata-2/items/D2_SMI_2020-01-27T052058_2020-01-27T235959_L1C"
+                }
+            ],
+            "assets": {
+                "thumbnail": {
+                    "href": "https://storage.googleapis.com/philsa-diwata-open-data/D2/thumbnail/D2_SMI_2020-01-27T052058_2020-01-27T235959_THUMB.png",
+                    "type": "image/png",
+                    "roles": [
+                        "thumbnail"
+                    ],
+                    "title": "Thumbnail"
+                },
+                "top-of-atmosphere-reflectance": {
+                    "href": "https://storage.googleapis.com/philsa-diwata-open-data/D2/smi/D2_SMI_2020-01-27T052058_2020-01-27T235959_L1C_COG.tif",
+                    "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+                    "roles": [
+                        "cog",
+                        "data",
+                        "visual"
+                    ],
+                    "title": "Top of Atmosphere Reflectance (L1C)",
+                    "eo:bands": [
+                        {
+                            "name": "V490",
+                            "common_name": "blue",
+                            "description": "Operational Band V490"
+                        },
+                        {
+                            "name": "V550",
+                            "common_name": "green",
+                            "description": "Operational Band V550"
+                        },
+                        {
+                            "name": "V620",
+                            "common_name": "yellow",
+                            "description": "Operational Band V620"
+                        },
+                        {
+                            "name": "V670",
+                            "common_name": "red",
+                            "description": "Operational Band V670"
+                        },
+                        {
+                            "name": "V708",
+                            "common_name": "red-edge",
+                            "description": "Operational Band V708"
+                        },
+                        {
+                            "name": "N740",
+                            "common_name": "red-edge",
+                            "description": "Operational Band V740"
+                        },
+                        {
+                            "name": "N753",
+                            "common_name": "red-edge",
+                            "description": "Operational Band V753"
+                        },
+                        {
+                            "name": "N778",
+                            "common_name": "nir",
+                            "description": "Operational Band V778"
+                        },
+                        {
+                            "name": "N865",
+                            "common_name": "nir",
+                            "description": "Alternate Band V865"
+                        }
+                    ],
+                    "raster:bands": [
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 927.9378051757812,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 992.88525390625,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 992.63232421875,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 992.2554931640625,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 993.0,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 853.64697265625,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 759.590087890625,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 702.380126953125,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        },
+                        {
+                            "nodata": 0,
+                            "data_type": "float32",
+                            "statistics": {
+                                "maximum": 369.4643249511719,
+                                "minimum": 0.0
+                            },
+                            "spatial_resolution": 125
+                        }
+                    ]
+                }
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            120.32876015753544,
+                            12.979083062525461
+                        ],
+                        [
+                            120.32876015753544,
+                            14.494768955027105
+                        ],
+                        [
+                            121.36244194556407,
+                            14.494768955027105
+                        ],
+                        [
+                            121.36244194556407,
+                            12.979083062525461
+                        ],
+                        [
+                            120.32876015753544,
+                            12.979083062525461
+                        ]
+                    ]
+                ]
+            },
+            "collection": "diwata-2",
+            "properties": {
+                "datetime": "2020-01-27T05:20:58Z",
+                "platform": "Diwata-2",
+                "proj:epsg": 3857,
+                "instruments": [
+                    "Spaceborne Multispectral Imager (SMI)"
+                ]
+            },
+            "stac_version": "1.0.0",
+            "stac_extensions": [
+                "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+                "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+                "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+            ]
+        }
+    ],
+    "links": [
+        {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://api.diwata-stac.philsa.gov.ph/"
+        },
+        {
+            "rel": "self",
+            "type": "application/json",
+            "href": "https://api.diwata-stac.philsa.gov.ph/search?bbox=120.007,12.157,121.649,13.501"
+        }
+    ]
+}
